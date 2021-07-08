@@ -1,0 +1,82 @@
+header {
+  height: 65px;
+  padding: 20px 0;
+  background-color: #505865;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1800;
+  width: 100%;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav-link {
+  img {
+    height: 40px;
+  }
+}
+
+.header__nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  li {
+    margin: 0 5px;
+    padding: 0 20px;
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.4s;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        bottom: -10px;
+        left: 0;
+        height: 2px;
+        background-color: orange;
+      }
+      &:hover,
+      &.active {
+        transition: 0.4s;
+        color: orange;
+        &::after {
+          width: 100%;
+          transition: 0.4s;
+        }
+      }
+    }
+  }
+}
+
+.work-img {
+  &::after {
+    position: absolute;
+    top: 0px;
+    opacity: 1;
+    width: calc(100% / 3);
+    bottom: -10px;
+  }
+  &:hover {
+    transition: 0.4s;
+    font-size: 25px;
+    color: #f4ad24;
+    background-image: linear-gradient(
+      to top,
+      rgba(35, 42, 52, 0.9) 0,
+      rgba(35, 42, 52, 0.9) 100%
+    );
+
+    background-image: url(https://avada.theme-fusion.com/resume/portfolio-items/creative-pitcher/);
+    background-image: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg);
+    color: orange;
+  }
+}

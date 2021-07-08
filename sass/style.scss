@@ -1,0 +1,512 @@
+@import "_header.scss";
+@import "_variables.scss";
+
+// NAV
+.fusion-main-menu {
+  float: right;
+  position: relative;
+  z-index: 200;
+  overflow: hidden;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      float: none;
+      padding: 0;
+      padding-right: 45px;
+
+      margin: 0;
+      padding: 0;
+      position: relative;
+      cursor: pointer;
+      a {
+        .mega-menu-icon {
+          padding-bottom: 0.5em;
+          font-size: 30px;
+          color: #505865;
+          width: auto;
+          transition: color 0.2s linear;
+        }
+      }
+    }
+  }
+}
+
+////////  SECTION First
+
+.person {
+  background-image: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/home_bg.jpg);
+  max-width: 100%;
+  height: 1200px;
+  width: 100%;
+  background-position: 60% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  max-width: 100%;
+}
+.slide-content {
+  width: auto;
+  transform: translate(10px, 400px);
+  h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 72px;
+    line-height: 86.4px;
+    --fontSize: 110;
+    line-height: 1;
+    margin-bottom: 15px;
+  }
+  h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19.2px;
+    --fontSize: 36;
+    line-height: 1.5;
+  }
+}
+
+.tfs-button-1 {
+  margin-top: 3.25%;
+  padding: 0 7.5px;
+  display: inline-block;
+  .fusion-alignleft {
+    display: inline;
+    float: left;
+    margin-right: 15px;
+    a {
+      font-weight: 700;
+      letter-spacing: 2px;
+      border-width: 0px;
+      border-style: solid;
+      border-radius: 2px;
+      text-transform: uppercase;
+      transition: all 0.2s;
+      background: #f4ad24;
+      color: #ffffff;
+      border-color: #ffffff;
+      padding: 9px 20px;
+      font-size: 12px;
+      text-decoration: none;
+    }
+  }
+}
+
+//////// Second Section
+
+.texts {
+  overflow: hidden;
+}
+
+.about-text {
+  background-color: rgba(255, 255, 255, 0);
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-width: 0px 0px 0px 0px;
+  border-color: #eae9e9;
+  border-style: solid;
+  flex-direction: column;
+  padding: 50px;
+
+  h2 {
+    font-family: Montserrat;
+    font-weight: 800;
+    line-height: 110px;
+    letter-spacing: 0px;
+    font-style: normal;
+    color: #f2f2f2;
+    font-size: 110px;
+  }
+  h3 {
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 2px;
+  }
+  h6 {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 1px;
+    font-style: italic;
+  }
+  p {
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-style: normal;
+    line-height: 27px;
+    font-size: 15px;
+    color: #7e8890;
+  }
+}
+
+.fusion-alignWork {
+  display: inline;
+  float: left;
+  margin-right: 15px;
+  a {
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    background: #f4ad24;
+    color: #ffffff;
+    border-color: #ffffff;
+    padding: 9px 25px;
+    font-size: 12px;
+    text-decoration: none;
+  }
+}
+
+.photo {
+  background-image: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/avada-resume-about.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  min-height: 0px;
+
+  margin-right: auto;
+  height: 100vh;
+}
+
+////////// THIRD SECTION
+
+.photo-work {
+  background-image: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/works_bg_900x1600.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  min-height: 0px;
+  height: 150vh;
+}
+
+.work {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  background-position: left top;
+  background-repeat: no-repeat;
+  border-width: 0px 0px 0px 0px;
+  border-color: #eae9e9;
+  border-style: solid;
+  .work-text {
+    padding: 40px;
+    h2 {
+      font-family: Montserrat;
+      font-weight: 800;
+      line-height: 110px;
+      color: #ffffff;
+      font-size: 110px;
+    }
+    h3 {
+      font-weight: 700;
+      line-height: 1.5;
+      letter-spacing: 2px;
+      font-style: normal;
+      font-size: 36px;
+    }
+  }
+}
+
+////////// Fouth Section
+
+.skills {
+  overflow: hidden;
+}
+
+.photo-skill {
+  background-image: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/experience_bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  min-height: 0px;
+  height: 175vh;
+}
+
+.skill-text {
+  background-color: #1c212a;
+  padding: 65px;
+  h2 {
+    margin: 0;
+    color: #282f3c;
+    font-size: 110px;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 36px;
+    color: white;
+  }
+  h6 {
+    line-height: 1.95;
+    font-size: 19px;
+    color: #7e8890;
+    margin-top: 16px;
+  }
+  .fusion-digital {
+    margin-top: 55px;
+    h5 {
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 1.5;
+      letter-spacing: 0px;
+      font-style: normal;
+      color: white;
+    }
+    .fusion-separator {
+      margin-right: auto;
+      margin-bottom: 20px;
+      width: 100%;
+      max-width: 130px;
+      display: flex;
+      align-items: center;
+      border-color: #f4ad24;
+      border-top-width: 1px;
+      border-bottom-style: solid;
+      border-top-style: solid;
+    }
+    p {
+      color: #7e8890;
+      line-height: 36px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.fusion-separator-digital {
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 167px;
+  display: flex;
+  align-items: center;
+  border-color: #f4ad24;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  p {
+    color: #7e8890;
+    line-height: 36px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+.fusion-separator-marketing {
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 175px;
+  display: flex;
+  align-items: center;
+  border-color: #f4ad24;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  p {
+    color: #7e8890;
+    line-height: 36px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+//////// Fifth Section
+
+.skill-result {
+  overflow: hidden;
+}
+
+.photo-result {
+  background-image: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/skill_bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  min-height: 0px;
+  height: 175vh;
+}
+
+.result-text {
+  padding: 65px;
+  overflow: hidden;
+
+  h2 {
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: 0px;
+    font-style: normal;
+    color: #f2f2f2;
+    font-size: 110px;
+  }
+  h3 {
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 2px;
+  }
+  h6 {
+    line-height: 1.95;
+    font-size: 19px;
+    color: #7e8890;
+    margin-top: 1.5rem;
+    margin-bottom: 1.25em;
+  }
+}
+
+.proggres-title {
+  h4 {
+    color: #313131;
+    font-size: 21px;
+    line-height: 36px;
+  }
+}
+.proggres {
+  width: 100%;
+  border-radius: 5px;
+  transition: 2s;
+  background-color: #e5e5e5;
+  height: 10px;
+  border-color: #f6f6f6;
+}
+
+.proggres-item {
+  width: 75%;
+  background-color: orange;
+  height: 10px;
+}
+
+//////// SIX SECTION
+
+.inputs {
+  overflow: hidden;
+}
+.input-text {
+  background-color: #667184;
+  padding: 75px 50px;
+  h2 {
+    font-family: Montserrat;
+    font-weight: 800;
+    line-height: 110px;
+    color: #f2f2f2;
+    font-size: 110px;
+  }
+  h3 {
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 2px;
+  }
+  h6 {
+    line-height: 1.95;
+    font-size: 19px;
+    color: #3f4549fa;
+  }
+}
+
+.photo-input {
+  background-image: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/contact_bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  min-height: 0px;
+  height: 175vh;
+}
+
+.fusion-touch {
+  transform: translate(0px, 50px);
+  a {
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-width: 0px;
+    border-radius: 2px;
+    transition: all 0.2s;
+    background: #f4ad24;
+    color: #ffffff;
+    border-color: #ffffff;
+    padding: 9px 25px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
+
+.fusion-form {
+  width: 100%;
+
+  margin: 20px 0px;
+  input {
+    width: 90%;
+    padding: 12px;
+  }
+  textarea {
+    width: 90%;
+  }
+}
+
+//////// Footer
+
+footer {
+  text-align: center;
+  background-color: rgb(35 42 52);
+  overflow: hidden;
+}
+.copyright {
+  span {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    color: #8c8989;
+    font-size: 14px;
+
+    transform: translate(335px, 0px);
+  }
+}
+
+.social-link {
+  a {
+    width: calc(22px + (2 * (10px)) + 2px);
+    padding: 8px;
+    background-color: #f4ad24;
+    border-color: #f4ad24;
+    border-radius: 5px;
+    color: white;
+  }
+}
+
+.word,
+.theme {
+  color: #bfbfbf;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.4s;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    bottom: -10px;
+    left: 0;
+    height: 2px;
+    background-color: orange;
+  }
+  &:hover {
+    transition: 0.4s;
+    color: orange;
+  }
+}
